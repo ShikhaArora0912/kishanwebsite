@@ -1,0 +1,451 @@
+<!--HTML for website by Kishan H-->
+<!--External files include bootstrap css and js, and aos linked in evidence template-->
+<!--Original source code such as from W3 Schools, Bootstrapmade.com, getbootstrap.com/docs are linked in evidence template-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Co-Curriculars Website</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Raleway:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+  <!-- External CSS Files -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+  <!-- ===== Navigation ===== -->
+    <nav class="navbar navbar-expand-xxl navbar-dark sticky-top" style="background-color: #5F0136;">
+      <div class="container">
+        <a href="index.html" class="logo d-flex align-items-center">
+          <img src="assets/images/logo_resized.png" alt="logo"> 
+          <h1>Botany Downs Secondary College Co-Curriculars<span>.</span></h1>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <div id="navbar" class="navbar-spacing ms-auto">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="sports.html">Sports</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="arts.html">Arts</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="cultural.html">Cultural</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="enviroschools.html">Enviroschools</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav> <!-- End navbar-->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="hero">
+    <div class="container position-relative">
+      <div class="row gy-5"> <!-- animation for hero containers-->
+        <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center text-center text-lg-start">
+          <h2>Welcome to our Co-Curriculars site</h2>
+          <p>Learning essential life skills through activities outside the classroom.</p>
+          <div class="d-flex justify-content-center justify-content-lg-start">
+            <a href="https://www.youtube.com/watch?v=GN99GDu54Ys" class="btn-watch-video d-flex align-items-center"><i class="bi bi-play-circle"></i><span>Watch Video</span></a>
+          </div> 
+        </div>
+        <div class="col-lg-6 order-1 order-lg-2">
+          <img src="assets/images/hero_image_resized.png" class="img-fluid" alt="hero image">
+        </div>
+      </div>
+    </div>
+
+    <div class="icon-boxes position-relative">
+      <div class="container position-relative">
+        <div class="row gy-4 mt-5">
+
+          <div class="col-xl-3 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-content="Offering a large number of sporting codes to suit all students" data-bs-title="Sports">
+            <div class="icon-box">
+              <div class="icon">
+                  <img src="assets/images/sports/sports_logo.png.jpg" class = "img-fluid rounded-corners" alt="sports logo">
+              </div>
+              <h4 class="title"><a href="sports.html" class="stretched-link">Sports</a></h4>
+            </div>
+          </div>
+          </div><!--End Icon Box 1-->
+
+          <div class="col-xl-3 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-content="Explore the fields of Dance, Drama, Music, and Visual Art & Photography." data-bs-title="Arts">
+              <div class="icon-box">
+                <div class="icon">
+                    <img src="assets/images/arts/arts_logo.png.jpg" class = "img-fluid rounded-corners" alt="arts logo">
+                </div>
+                <h4 class="title"><a href="arts.html" class="stretched-link">Arts</a></h4>
+              </div>
+            </div>
+          </div><!--End Icon Box 2-->
+
+          <div class="col-xl-3 col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <div data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-content="Allowing students to come together and display their own culture in front of their peers and the whole college." data-bs-title="Cultural">
+              <div class="icon-box">
+                <div class="icon">
+                    <img src="assets/images/cultural/cultural_logo.jpg" class = "img-fluid rounded-corners" alt="cultural logo">
+                </div>
+                <h4 class="title"><a href="cultural.html" class="stretched-link">Cultural</a></h4>
+              </div>
+            </div>
+          </div><!--End Icon Box 3 -->
+
+          <div class="col-xl-3 col-md-6" data-aos="fade-up" data-aos-delay="500">
+            <div data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-content="Making a difference to our environment and proudly one of the largest co-curricular groups." data-bs-title="Enviroschools">
+              <div class="icon-box">
+                <div class="icon">
+                    <img src="assets/images/enviroschools/enviro_logo.jpg" class = "img-fluid rounded-corners" alt="enviroschools logo">
+                </div>
+                <h4 class="title"><a href="enviroschools.html" class="stretched-link">Enviroschools</a></h4>
+              </div>
+            </div>
+          </div><!--End Icon Box 4 -->
+
+        </div>
+      </div>
+    </div>
+    
+  </section>
+  <!-- End Hero Section -->
+  
+
+  <main id="main">
+
+    <!-- ======= Information Section ======= -->
+    <section id="info" class="info">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-header">
+          <h2>Co-curriculars at the college</h2>
+          <p>Our co-curricular programme provides opportunities for students to experience and develop skills and personal qualities through their active participation in activities beyond the classroom.</p>
+        </div>
+
+        <div class="row gy-4">
+          <div class="col-lg-6">
+            <img src="assets/images/information_image.png" class="img-fluid center rounded-corners mb-4" alt="cultural dance on stage">
+            <!-- <iframe width="446" height="250" src="https://www.youtube.com/embed/GN99GDu54Ys" title="BDSC Co Curricular 2022" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
+          </div>
+          <div class="col-lg-6">
+            <p>Being active, being involved, and being challenged will always be part of being a “kiwi kid”.
+            </p>
+            <p>Alongside Sports, Arts, Cultural Groups and Enviroschools we also provide many Service and Leadership opportunities such as Coaching, Leadership Programmes, Librarians, Umpiring and the Young New Zealanders Challenge.</p>
+            <p>This year all students will be encouraged to have a minimum of four co-curricular activities listed on each of their reports.
+              We believe that all students should be actively participating in co-curricular activities and it is great to see parents, our community, and staff getting involved as well. </p>
+            <p> For more information, watch our co-curriculars video on youtube created by our very own lead students of 2022 -</p>
+            <a style="color: #89C9EC;" href="https://www.youtube.com/watch?v=GN99GDu54Ys" class="btn-watch-video d-flex align-items-center"><i class="bi bi-play-circle"></i><span>     Co-Curriculars at the College</span></a>             
+          </div>
+        </div>
+
+        <div class="container-fluid section-center sections-bg-2 justify-content-center" data-aos="fade-up">
+          <p>In order to develop and enhance citizenship<span id="dots">...</span><span id="more"> and put into practice the values of the college, we are continuing to develop a comprehensive and first class co-curricular programme.</span></p>
+          <button onclick="readmore()" id="buttons">Read more</button>
+        </div>
+
+      </div>
+    </section><!-- End Information Section -->
+
+    <!-- ======= Carousel Section ======= -->
+    <div id="carouselautoplay" class="carousel slide" data-bs-ride="carousel" data-aos="fade-up">
+
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselautoplay" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselautoplay" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselautoplay" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+
+      <div class="carousel-inner" role = "listbox">
+
+        <div class="carousel-item active">
+          <img src="assets/image_processing/carousel_1.jpg" class="d-block w-100" alt="carousel image 1">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Meet our Lead Students!</h5>
+            <p>Students are offered many opportunites to become leaders.</p>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <img src="assets/image_processing/carousel_2.jpg" class="d-block w-100" alt="carousel image 2">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Cultural Groups</h5>
+            <p>Students are offered many opportunities to join cultural groups to support cultural growth.</p>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <img src="assets/image_processing/carousel_3.jpg" class="d-block w-100" alt="carousel image 3">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Cultural Dances</h5>
+            <p>Students are encouraged to participate in cultural dances.</p>
+          </div>
+        </div>
+
+      </div>
+
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselautoplay" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselautoplay" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+
+    </div><!-- End Carousel Section -->
+      
+
+    <!-- ======= List Section ======= -->
+    <section id="list" class="list sections-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-header-2">
+          <h2>Some opportunities we offer here at the college:</h2>
+        </div>
+
+        <div class="row gy-4">
+  
+          <div class="col-sm-3 col-3 column-links" data-aos="fade-up" data-aos-delay="100">
+            <ul>
+              <li class="clickable"><a href="sports.html#hockey">○ Hockey</a></li>
+              <li><a>○ Juggling Club</a></li>
+              <li><a>○ 40 Hour Famine</a></li>
+              <li><a >○ Whanau Leaders</a></li>
+              <li><a>○ Career Guides</a></li>
+              <li><a>○ Crochet Club</a></li>
+              <li><a>○ Digital Technology Club</a></li>
+              <li><a>○ Culinary Club</a></li>
+              <li><a>○ Arts Council</a></li>
+              <li><a>○ Media Club</a></li>
+              <li><a>○ Orienteering</a></li>
+              <li class="clickable"><a href="sports.html#badminton">○ Badminton</a></li>
+              <li><a>○ Table Tennis</a></li>
+              <li><a>○ Golf</a></li>
+              <li><a>○ Swimming</a></li>
+              <li><a>○ Athletics</a></li>
+              <li><a>○ Cross Country</a></li>
+              <li><a>○ Archery</a></li>
+              <li><a>○ Gymsports</a></li>
+            </ul>
+          </div>
+  
+          <div class="col-sm-3 col-3 column-links" data-aos="fade-up" data-aos-delay="200">
+            <ul>
+              <li class="clickable"><a href="arts.html#backstage">○ Back Stage Crew</a></li>
+              <li class="clickable"><a href="cultural.html#indian">○ Desi Dance Off</a></li>
+              <li><a>○ Debating</a></li>
+              <li><a>○ Chess Club</a></li>
+              <li><a>○ Cafe Assitants</a></li>
+              <li><a>○ Amnesty International</a></li>
+              <li class="clickable"><a href="cultural.html#chinese">○ Chinese Dance</a></li>
+              <li class="clickable"><a href="arts.html#jazz">○ Jazz Band</a></li>
+              <li class="clickable"><a href="arts.html#orchestra">○ Orchestra</a></li>
+              <li><a>○ Choir</a></li>
+              <li><a>○ Costume Crew</a></li>
+              <li><a>○ E-Sports Club</a></li>
+              <li><a>○ Fiji Service Trip</a></li>
+              <li><a>○ Hauora Council</a></li>
+              <li><a>○ Health Council</a></li>
+              <li><a>○ Science Council</a></li>
+              <li><a>○ Math Council</a></li>
+              <li class="clickable"><a href="arts.html#kapahaka">○ Kapa Haka</a></li>
+              <li><a>○ Librarians</a></li>
+            </ul>
+          </div>
+
+          <div class="col-sm-3 col-3 column-links" data-aos="fade-up" data-aos-delay="300">
+            <ul>
+              <li class="clickable"><a href="cultural.html#kpop">○ Korean Dance</a></li>
+              <li class="clickable"><a href="cultural.html#indian">○ Indian Dance</a></li>
+              <li><a>○ Commerce Club</a></li>
+              <li class="clickable"><a href="cultural.html#lion">○ Lion Dance</a></li>
+              <li><a>○ Model UN</a></li>
+              <li><a>○ Market Day</a></li>
+              <li><a>○ Lead Student</a></li>
+              <li><a>○ Production</a></li>
+              <li class="clickable"><a href="arts.html#sdnz">○ Street Dance New Zealand</a></li>
+              <li class="clickable"><a href ="arts.html#bands">○ Rockquest</a></li>
+              <li class="clickable"><a href="arts.html#showquest">○ Showquest</a></li>
+              <li><a>○ Sports Council</a></li>
+              <li><a>○ Tech Crew</a></li>
+              <li><a>○ Robotics Club</a></li>
+              <li><a>○ Duke of Edinbrugh</a></li>
+              <li><a>○ Set & Props Making Crew</a></li>
+              <li><a>○ Writing Club</a></li>
+              <li><a>○ Wearable Arts</a></li>
+              <li class="clickable"><a href="enviroschools.html#groups">○ Kilkenny Group</a></li>
+            </ul>
+          </div>
+  
+          <div class="col-sm-3 col-3 column-links" data-aos="fade-up" data-aos-delay="500">
+            <ul>
+              <li class="clickable"><a href="enviroschools.html#groups">○ Worm Farm</a></li>
+              <li class="clickable"><a href="enviroschools.html#groups">○ Paper Recylcing</a></li>
+              <li class="clickable"><a href="arts.html#sheilah">○ Sheila Winn Shakespeare</a></li>
+              <li class="clickable"><a href="arts.html#itinerant">○ Itinerant Music Lessons</a></li>
+              <li><a>○ Polyfest Stage Hosting</a></li>
+              <li><a>○ Choir</a></li>
+              <li><a>○ Knitting Club</a></li>
+              <li><a>○ Spoken Word Poetry</a></li>
+              <li><a>○ Origami CLub</a></li>
+              <li><a>○ Samoan Polyfest Group</a></li>
+              <li class="clickable"><a href="sports.html#squash">○ Squash</a></li>
+              <li class="clickable"><a href="sports.html#ultimate">○ Ultimate Frisbee</a></li>
+              <li class="clickable"><a href="sports.html#basketball">○ Basketball</a></li>
+              <li class="clickable"><a href="sports.html#netball">○ Netball</a></li>
+              <li class="clickable"><a href="sports.html#volleyball">○ Volleyball</a></li>
+              <li class="clickable"><a href="sports.html#tennis">○ Tennis</a></li>
+              <li class="clickable"><a href="sports.html#cricket">○ Cricket</a></li>
+              <li class="clickable"><a href="sports.html#football">○ Football</a></li>
+              <li class="clickable"><a href="sports.html#touch">○ Touch Rugby</a></li>
+            </ul>
+          </div>
+  
+        </div>
+
+      </div>
+    </section><!-- End list Section -->
+
+
+  </main><!-- End #main -->
+  
+  <!-- ======= Footer ======= -->
+  <footer id="footer" class="footer">
+
+    <div class="container">
+      <div class="row gy-4">
+        <div class="col-lg-5 col-md-12 footer-info">
+          <a href="index.html" class="logo d-flex align-items-center">
+            <div><img src="assets/images/logo_resized.png" alt="BDSC logo image"><h1>Botany Downs Secondary College Co-Curriculars<span>.</span></h1></div>
+          </a>
+          <p>Learning essential life skills through activities outside the classroom.</p>
+          <div class="social-links d-flex mt-4">
+            <a href="https://twitter.com/botany_bdsc" class="twitter"><i class="bi bi-twitter"></i></a>
+            <a href="https://www.facebook.com/botanydowns/" class="facebook"><i class="bi bi-facebook"></i></a>
+            <a href="https://www.instagram.com/BDSC.Life/?hl=en" class="instagram"><i class="bi bi-instagram"></i></a>
+            <a href="https://nz.linkedin.com/school/botany-downs-secondary-college/" class="linkedin"><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-6 footer-links">
+          <h4>Useful Links</h4>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="sports.html">Sports</a></li>
+            <li><a href="arts.html">Arts</a></li>
+            <li><a href="cultural.html">Cultural</a></li>
+            <li><a href="enviroschools.html">Enviroschools</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-2 col-6 footer-links">
+          <h4>Co-Curriculars</h4>
+          <ul>
+            <li><a href="sports.html#activities">Summer Sports</a></li>
+            <li><a href="sports.html#activities">Winter Sports</a></li>
+            <li><a href="arts.html#dance">Dance</a></li>
+            <li><a href="arts.html#music">Music</a></li>
+            <li><a href="arts.html#drama">Drama and Theatre</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
+          <h4>Contact Us</h4>
+          <ul><li><a href="https://www.bdsc.school.nz/contact-us/">Contact</a></li></ul>
+          <p>
+            575 Chapel Road <br>
+            Howick, Auckland 2016<br>
+             <br>
+             <br>
+            <strong>Phone: +64 9273 2310<br></strong>
+          </p>
+
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container mt-4">
+      <div class="copyright" style="text-align: center;">
+        &copy;Created by Kishan H
+      </div>
+
+      <div class="credits" style="text-align: center;">
+        With help from W3 Schools, youtube and Bootstrapmade.com impact design. Information used is from the <a href="https://www.bdsc.school.nz/">School Website.</a>
+      </div>
+    </div>
+
+  </footer>
+  <!-- End Footer -->
+
+
+
+  <!--Popper.js scripts for popovers/tooltips for icon boxes-->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+
+  <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <div id="preloader"></div>
+
+  <!-- AOS (animation on scroll) and Isootope Filter -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+  <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
+
+  <!-- Main JS File -->
+  <script src="js/main.js"></script>
+  
+  <!-- Initialise the popovers and read more section -->
+  <script>
+    const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]')
+    const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl))
+  
+  /*read more button*/
+    function readmore() {
+      var dots = document.getElementById("dots");
+      var moreText = document.getElementById("more");
+      var btnText = document.getElementById("buttons");
+
+      if (dots.style.display === "none") {
+        dots.style.display = "inline";
+        btnText.innerHTML = "Read more";
+        moreText.style.display = "none";
+      } else {
+        dots.style.display = "none";
+        btnText.innerHTML = "Read less";
+        moreText.style.display = "inline";
+      }
+    }
+  </script>
+
+
+</body>
+
+</html>

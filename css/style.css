@@ -1,0 +1,789 @@
+/* CSS page for Co-Curriculars website by Kishan H */
+/* Credits and (unmodified code) came form some external resources and templates - Bootstrapmade.com and W3 Schools adn youtube videos
+URL's to original sources are linked in evidence template
+
+/*---------------------------------------------
+# Set the scroll behaviour to smooth 
+----------------------------------------------*/
+
+/* Smoother scroll behavior */
+:root {
+  scroll-behavior: smooth;
+}
+
+/*--------------------------------------------------------------
+# General (ie body , images and a-tags)
+--------------------------------------------------------------*/
+body {
+  font-family: "Open Sans", "Segoe UI", "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  color: #222222;
+}
+
+a {
+  color: #5F0136;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #7F4265;
+  text-decoration: none;
+}
+
+img.rounded-corners {
+  border-radius: 8px;
+}
+
+img.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img.responsive {
+  width: 100%;
+  height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+}
+
+/*--------------------------------------------------------------
+# Navigation
+--------------------------------------------------------------*/
+
+.navbar .logo img {
+  max-height: 60px;
+  margin-right: 6px;
+}
+
+.navbar-spacing a,
+.navbar-spacing a:focus {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 3px;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.6);
+  transition: 0.3s;
+}
+
+.navbar .logo h1 {
+  font-size: 20px;
+  margin: 0;
+  font-weight: 600;
+  letter-spacing: 0.8px;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+}
+
+.navbar .logo h1 span {
+  color: #89C9EC;
+}
+
+.navbar .navbar-spacing>ul>li {
+  padding: 10px 0 10px 28px;
+} 
+
+
+.nav-link {
+  position: relative;
+}
+
+.nav-link::after {
+  opacity: 0;
+  content: "";
+  position: absolute;
+  height: 2px;
+  bottom: -3px;
+  left: 0;
+  background-color: #89C9EC;
+  width: 100%;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.nav-link:hover::after {
+  opacity: 1;
+}
+
+.navbar .navbar-spacing a.active {
+  border-bottom: 2px solid #89C9EC;
+}
+
+/*--------------------------------------------------------------
+# Hero Section 
+--------------------------------------------------------------*/
+.hero {
+  width: 100%;
+  position: relative;
+  background: #5F0136;
+  padding: 60px 0 0 0;
+}
+
+@media (min-width: 1365px) {
+  .hero {
+    background-attachment: fixed;
+  }
+}
+
+.hero h2 {
+  font-size: 39px;
+  font-weight: 650;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.hero p {
+  color: rgba(255, 255, 255, 0.6);
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+.hero .btn-watch-video {
+  font-size: 16px;
+  transition: 0.5s;
+  margin-left: 25px;
+  color: #fff;
+  font-weight: 600;
+}
+
+.hero .btn-watch-video i {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 32px;
+  transition: 0.3s;
+  line-height: 0;
+  margin-right: 8px;
+}
+
+.hero .btn-watch-video:hover i {
+  color: #fff;
+}
+
+@media (max-width: 640px) {
+  .hero h2 {
+    font-size: 36px;
+  }
+
+  .hero .btn-watch-video {
+    font-size: 14px;
+  }
+}
+
+.hero .icon-boxes {
+  padding-bottom: 60px;
+}
+
+@media (min-width: 1200px) {
+  .hero .icon-boxes:before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: calc(50% + 20px);
+    background-color: #fff;
+  }
+}
+
+.hero .icon-box {
+  padding: 40px 30px;
+  position: relative;
+  overflow: hidden;
+  background: #770646;
+  box-shadow: 0 0 29px 0 rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease-in-out;
+  border-radius: 8px;
+  z-index: 1;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+}
+
+.hero .icon-box .title {
+  font-weight: 650;
+  margin-bottom: 10px;
+  margin-top: 15px;
+  font-size: 24px;
+}
+
+.hero .icon-box .title a {
+  color: #fff;
+  transition: 0.3s;
+}
+
+.hero .icon-box .icon {
+  margin-bottom: 0px;
+  padding-top: 0px;
+  display: inline-block;
+  transition: all 0.3s ease-in-out;
+  font-size: 48px;
+  line-height: 1;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+
+.hero .icon-box:hover {
+  background: #6B053F;
+}
+
+.hero .icon-box:hover .title a,
+.hero .icon-box:hover .icon {
+  color: #fff;
+}
+
+.page-hero .page-header {
+  margin: 0;
+  padding: 60px 0 60px 0;
+  min-height: 35vh;
+  position: relative;
+  background-size: cover;
+}
+
+.page-hero .page-header h2 {
+  font-size: 56px;
+  font-weight: 500;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+}
+
+.page-hero .page-header p {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+/*--------------------------------------------------------------
+# Information Section
+--------------------------------------------------------------*/
+section {
+  padding: 60px 0;
+  overflow: hidden;
+}
+
+.sections-bg {
+  background-color: #89C9EC;
+}
+
+.sections-bg-2 {
+  background-color: #ffffff
+}
+
+.sections-bg-3 {
+  background-color: #d8d9da;
+}
+
+.section-header {
+  text-align: center;
+  padding-bottom: 60px;
+}
+
+.section-header-2 {
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+.section-center {
+  padding: 20px 0;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+#more, #more2, #more3 {display: none;}
+#buttons, #buttons2, #buttons3 {
+  border-radius: 8px;
+  background-color:#5F0136;
+  color: #fff;
+  text-align: center;
+}
+
+.section-header h2 {
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  position: relative;
+}
+
+.section-text h3 {
+  font-size: 23px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  color: #5F0136;
+  position: relative;
+}
+
+.section-text h4 {
+  font-size: 17px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  color: #5F0136;
+  position: relative;
+}
+
+.section-text img {
+  align-items: center;
+  text-align: center;
+}
+
+.section-header h2:after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 50px;
+  height: 3px;
+  background: #5F0136;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.section-header p {
+  margin-bottom: 0;
+  color: #6f6f6f;
+}
+
+#section-image {
+  max-height: 436px
+}
+
+
+/*--------------------------------------------------------------
+# Carousel Section
+--------------------------------------------------------------*/
+.carousel-inner img {
+  width: 100%; /* Set width to 100% */
+  margin: auto;
+  min-height:300px;
+  object-fit: cover;
+}
+
+/* Hide the carousel text when the screen is less than 600 pixels wide */
+@media (max-width: 600px) {
+  .carousel-caption {
+    display: none; 
+  }
+}
+
+.carousel-caption {
+  background-color: rgba(66, 65, 65, 0.5)
+}
+
+@media(max-width:768px){
+  .carousel .carousel-inner{
+      height:auto
+   }
+} 
+
+.carousel-inner .carousel-item > img{
+  animation:zoom 14s;
+}
+
+@keyframes zoom {
+  from{
+    transform: scale(1.5, 1.5);
+  }
+  to{
+    transform: scale(1,1);
+  }
+}
+
+/*--------------------------------------------------------------
+# List Section
+--------------------------------------------------------------*/
+.list .column-links {
+  margin-bottom: 30px;
+}
+
+.list .column-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.list .column-links ul li {
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+}
+
+.list .column-links ul li:first-child {
+  padding-top: 0;
+}
+
+.list .column-links ul a {
+  color: rgba(27, 25, 25, 0.7);
+  transition: 0.3s;
+  display: inline-block;
+  line-height: 2;
+}
+
+.list .column-links ul li.clickable a {
+  color: rgb(112, 20, 74);
+  font-weight: bold;
+  transition: 0.3s;
+  display: inline-block;
+  line-height: 2;
+}
+
+.list .column-links ul li.clickable a:hover {
+  color: #fff
+}
+
+/*--------------------------------------------------------------
+# Sports/Arts/Cultural/Enviroschools Section
+--------------------------------------------------------------*/
+.activities .activities-flters {
+  padding: 0 0 20px 0;
+  margin: 0 auto;
+  list-style: none;
+  text-align: center;
+}
+
+.activities .activities-flters li {
+  cursor: pointer;
+  display: inline-block;
+  padding: 0;
+  font-size: 18px;
+  font-weight: 500;
+  margin: 0 10px;
+  line-height: 1;
+  transition: all 0.3s ease-in-out;
+}
+
+.activities .activities-flters li:hover,
+.activities .activities-flters li.filter-active {
+  color: #fff;
+}
+
+.activities .activities-flters li:first-child {
+  margin-left: 0;
+}
+
+.activities .activities-flters li:last-child {
+  margin-right: 0;
+}
+
+@media (max-width: 575px) {
+  .activities .activities-flters li {
+    font-size: 14px;
+    margin: 0 5px;
+  }
+}
+
+.activities .activities-wrap {
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  height: 100%;
+  overflow: hidden;
+}
+
+.activities .activities-wrap img {
+  transition: 0.3s;
+  position: relative;
+  z-index: 1;
+}
+
+.activities .activities-wrap .activities-info {
+  padding: 25px 20px;
+  background-color: #fff;
+  position: relative;
+  border-top: 1px solid #f3f3f3;
+  z-index: 2;
+}
+
+.activities .activities-wrap .activities-info h4 {
+  font-size: 18px;
+  font-weight: 600;
+  padding-right: 50px;
+}
+
+.activities .activities-wrap .activities-info h4 a {
+  color: #222222;
+  transition: 0.3s;
+}
+
+.activities .activities-wrap .activities-info h4 a:hover {
+  color: #5F0136;
+}
+
+.activities .activities-wrap .activities-info p {
+  color: #6c757d;
+  font-size: 14px;
+  margin-bottom: 0;
+  padding-right: 50px;
+}
+
+.activities .activities-wrap:hover img {
+  transform: scale(1.1);
+}
+
+
+/*--------------------------------------------------------------
+#PDF Section
+--------------------------------------------------------------*/
+.pdf {
+  height: auto;
+  width: auto;
+  padding: 1.8229166666667vw;
+  word-spacing: 0vw;
+  font-size: 1.5625vw;
+  
+}
+
+.pdf iframe {
+  width: 100%;
+  height:1200px;
+}
+
+.pdf2 iframe {
+  width: 100%;
+  height:600px;
+}
+
+.pdf iframe:focus {
+  outline: none;
+}
+.pdf iframe[seamless] {
+  display: block;
+}
+
+/*--------------------------------------------------------------
+#Responsive Embed Video
+--------------------------------------------------------------*/
+.iframe-container{
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; 
+  height: 0;
+}
+.iframe-container iframe{
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+.footer {
+  font-size: 14px;
+  background-color: #5F0136;
+  padding: 50px 0;
+  color: white;
+}
+
+.footer .logo img {
+  max-height: 60px;
+  margin-right: 6px;
+}
+
+.footer .logo h1 span {
+  color: #89C9EC;
+}
+
+.footer .logo h1 {
+  font-size: 20px;
+  margin: 0;
+  font-weight: 600;
+  letter-spacing: 0.8px;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+}
+
+.footer .footer-info .logo {
+  line-height: 0;
+  margin-bottom: 25px;
+}
+
+.footer .footer-info .logo img {
+  max-height: 40px;
+  margin-right: 6px;
+}
+
+.footer .footer-info .logo span {
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+}
+
+.footer .footer-info p {
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.footer .social-links a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.7);
+  margin-right: 10px;
+  transition: 0.3s;
+}
+
+.footer .social-links a:hover {
+  color: #fff;
+  border-color: #fff;
+}
+
+.footer h4 {
+  font-size: 16px;
+  font-weight: bold;
+  position: relative;
+  padding-bottom: 12px;
+}
+
+.footer .footer-links,
+.footer .footer-contact {
+  margin-bottom: 30px;
+}
+
+.footer .footer-links ul,
+.footer .footer-contact ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer .footer-links ul li{
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+}
+
+.footer .footer-contact ul li {
+  padding: 10px 0;
+}
+
+.footer .footer-links ul li:first-child,
+.footer .footer-contact ul li:first-child {
+  padding-top: 0;
+}
+
+.footer .footer-links ul a,
+.footer .footer-contact li a {
+  color: rgba(255, 255, 255, 0.7);
+  transition: 0.3s;
+  display: inline-block;
+  line-height: 1;
+}
+
+.footer .footer-links ul a:hover,
+.footer .footer-contact ul li a:hover {
+  color: #fff;
+}
+
+.footer .footer-contact p {
+  line-height: 26px;
+}
+
+.footer .credits {
+  font-size: 13px;
+}
+
+.footer .credits a{
+  color: blue;
+}
+
+.footer .credits a:hover{
+  color: #fff;
+}
+
+/*------------------------------------------------------------------------
+# Scroll to top of page button (arrow logo) adpated from bootstrapmade.com
+-------------------------------------------------------------------------*/
+.scroll-top {
+  position: fixed;
+  visibility: hidden;
+  opacity: 0;
+  right: 15px;
+  bottom: -15px;
+  z-index: 99999;
+  background: #89C9EC;
+  width: 44px;
+  height: 44px;
+  border-radius: 50px;
+  transition: all 0.4s;
+}
+
+.scroll-top i /* up-arrow icon*/{
+  font-size: 24px;
+  color: #fff;
+  line-height: 0;
+}
+
+.scroll-top:hover {
+  background: rgba(122, 56, 95, 0.8);
+  color: #fff;
+}
+
+.scroll-top.active {
+  visibility: visible;
+  opacity: 1;
+  bottom: 15px;
+}
+
+/*-------------------------------------------------------------------------------------
+# Preloader animation from bootstrapmade.com (shows loading icon when navigating site)
+--------------------------------------------------------------------------------------*/
+#preloader {
+  position: fixed;
+  inset: 0;
+  z-index: 999999;
+  overflow: hidden;
+  background: #fff;
+  transition: all 0.6s ease-out;
+}
+
+#preloader:before {
+  content: "";
+  position: fixed;
+  top: calc(50% - 30px);
+  left: calc(50% - 30px);
+  border: 6px solid #fff;
+  border-color: #5F0136 transparent #5F0136 transparent;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  animation: animate-preloader 1.5s linear infinite;
+}
+
+/* styiling animation sequence so loading icon rotates */
+@keyframes animate-preloader {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/*--------------------------------------------------------------
+# Disable animation on scroll (aos) animation delay on mobile 
+devices using media queries.
+--------------------------------------------------------------*/
+@media screen and (max-width: 768px) {
+  [data-aos-delay] {
+    transition-delay: 0s !important;
+  }
+}
+
